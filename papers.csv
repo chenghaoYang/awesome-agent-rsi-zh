@@ -1,0 +1,62 @@
+title,arxiv_id_or_url,date,org,scenario,level,frozen_fm,outer_loop_fixed,key_result,verified_date
+Self-Taught Optimizer (STOP),https://arxiv.org/abs/2310.02304,2023-10,NYU et al.,coding,L1/partial L2,yes,yes,Improves improver scaffold; authors deny full RSI,2026-09-24
+Self-Improving Coding Agent (SICA),https://arxiv.org/abs/2504.15228,2025-04,Bristol/iGent,coding,L1,yes,yes,SWE-Verified random subset ~17%->53%; ~$7k,2026-09-24
+Darwin Gödel Machine (DGM),https://arxiv.org/abs/2505.22954,2025-05,Sakana et al.,coding,L1/partial L2,yes,partial,SWE ~20%->50%; Polyglot 14.2%->30.7%; reward hacking reported,2026-09-24
+Huxley-Gödel Machine (HGM),https://arxiv.org/abs/2510.21614,2025-10,multi,coding,L1/partial L2,yes,partial,SWE-Verified-60 56.7%; CMP selection; ~2.38x fewer CPU hours vs DGM (authors),2026-09-24
+Live-SWE-agent,https://arxiv.org/abs/2511.13646,2025-11,UIUC et al.,coding,L1,yes,yes,Gemini 3 Pro Verified 77.4%; Verified-60 GPT-5-Mini 65% vs DGM/HGM; 0 offline cost,2026-09-24
+SEW: Self-Evolving Agentic Workflows,https://arxiv.org/abs/2505.18646,2025-05,Aberdeen/Glasgow/Cambridge/MBZUAI,coding,L0,yes,yes,Up to ~12% LiveCodeBench vs backbone (authors),2026-09-24
+SWE-Gym,https://arxiv.org/abs/2412.21139,2024-12,Berkeley/UIUC/CMU/Apple,coding,L3-train,no,yes,Open-weight Verified 32.0% Lite 26.0% with verifier scaling (authors),2026-09-24
+The AI Scientist,https://arxiv.org/abs/2408.06292,2024-08,Sakana et al.,science,L0-L1,yes,yes,~$15/paper pipeline (authors),2026-09-24
+The AI Scientist-v2,https://arxiv.org/abs/2504.08066,2025-04,Sakana et al.,science,L0-L1,yes,yes,1 of 3 ICLR workshop papers above human acceptance then withdrawn,2026-09-24
+AlphaEvolve,https://arxiv.org/abs/2506.13131,2025-05,Google DeepMind,science,L0,yes,yes,Matrix kernels +23%; Gemini train ~-1%; Borg ~0.7%; 4x4 complex matmul 48 mult,2026-09-24
+RE-Bench,https://arxiv.org/abs/2411.15114,2024-11,METR,eval,eval,n/a,n/a,Agents beat humans @~2h; humans catch up @8h / better @32h,2026-09-24
+MLE-bench,https://arxiv.org/abs/2410.07095,2024-10,OpenAI,eval,eval,n/a,n/a,o1-preview+AIDE >=bronze in 16.9% of 75 Kaggle,2026-09-24
+PaperBench,https://arxiv.org/abs/2504.01848,2025-04,OpenAI,eval,eval,n/a,n/a,Claude 3.5 Sonnet 21.0% avg; PhDs 41.4% on 3-paper subset,2026-09-24
+FunSearch,https://www.nature.com/articles/s41586-023-06924-6,2023-12,DeepMind,math,L0,yes,yes,Publishable constructions e.g. cap set (Nature),2026-09-24
+STP Self-play Theorem Prover,https://arxiv.org/abs/2502.00212,2025-02,unlisted on abs skim,math,L3,no,yes,LeanWorkbook ~28.5% vs expert-iter 13.2%; miniF2F 65% pass@3200,2026-09-24
+Absolute Zero / AZR,https://arxiv.org/abs/2505.03335,2025-05,multi,math,L3,no,yes,Zero external data SOTA vs zero-data baselines; uh-oh harmful CoT reported,2026-09-24
+Voyager,https://arxiv.org/abs/2305.16291,2023-05,NVIDIA et al.,embodied,L0-L1,yes,yes,~3.3x unique items; skill library,2026-09-24
+JARVIS-1,https://arxiv.org/abs/2311.05997,2023-11,multi,embodied,L0-L1,yes,yes,Memory-augmented multimodal Minecraft,2026-09-24
+ADAS / Meta Agent Search,https://arxiv.org/abs/2408.08435,2024-08,multi,workflow,L0,yes,yes,Fixed meta searches agent code; ICLR 2025,2026-09-24
+Gödel Agent,https://arxiv.org/abs/2410.04444,2024-10,multi,workflow,L1,yes,partial,Runtime self-mod / monkey patch; DROP/MGSM gains,2026-09-24
+AFlow,https://arxiv.org/abs/2410.10762,2024-10,multi,workflow,L0,yes,yes,MCTS over workflows; ICLR 2025 Oral,2026-09-24
+Promptbreeder,https://arxiv.org/abs/2309.16797,2023-09,DeepMind,workflow,L1/partial L2,yes,partial,Evolves task-prompts and mutation-prompts,2026-09-24
+TextGrad,https://arxiv.org/abs/2406.07496,2024-06,multi,workflow,L0,yes,yes,Textual gradients,2026-09-24
+DSPy,https://arxiv.org/abs/2310.03714,2023-10,Stanford et al.,workflow,L0,yes,yes,Compile/optimize LM pipelines,2026-09-24
+EvoAgentX,https://arxiv.org/abs/2507.03616,2025-07,multi,workflow,L0,yes,yes,HotPotQA +7.44 F1 etc. (authors),2026-09-24
+STaR,https://arxiv.org/abs/2203.14465,2022-03,multi,weight,L3,no,yes,Bootstrap CoT then train,2026-09-24
+Self-Rewarding Language Models,https://arxiv.org/abs/2401.10020,2024-01,Meta/NYU,weight,L3/partial L2,no,partial,AlpacaEval ~9.94%->20.44%,2026-09-24
+SPIN,https://arxiv.org/abs/2401.01335,2024-01,multi,weight,L3,no,yes,Self-play fine-tuning,2026-09-24
+Meta-Rewarding Language Models,https://arxiv.org/abs/2407.19594,2024-07,multi,weight,L3/partial L2,no,partial,Meta-judge improves judge,2026-09-24
+R-Zero,https://arxiv.org/abs/2508.05004,2025-08,multi,weight,L3,no,yes,Qwen3-4B-Base math ~+6.5 (authors),2026-09-24
+WebRL,https://arxiv.org/abs/2411.02337,2024-11,multi,web,L3,no,yes,Llama-3.1-8B WebArena-Lite 4.8%->42.4%,2026-09-24
+OpenAI Preparedness Framework v2,https://openai.com/index/updating-our-preparedness-framework/,2025-04-15,OpenAI,safety,policy,n/a,n/a,Tracked Category AI Self-improvement; Critical ~ RSI / fully automated AI R&D,2026-09-24
+Anthropic RSP v3.0,https://www.anthropic.com/news/responsible-scaling-policy-v3,2026-02-24,Anthropic,safety,policy,n/a,n/a,Rewrites structure; highly capable ~ compress 2y of 2018-2024 progress into 1y,2026-09-24
+DeepMind FSF 3.0/3.1,https://deepmind.google/blog/strengthening-our-frontier-safety-framework/,2025-09/2026-04-17,Google DeepMind,safety,policy,n/a,n/a,Expands ML R&D CCLs; internal deployment safety cases; TCL in 3.1,2026-09-24
+A Survey on Self-Evolution of LLMs,https://arxiv.org/abs/2404.14387,2024-04,Alibaba/PKU et al.,survey,survey,n/a,n/a,Framework: experience acquisition-refinement-updating-evaluation,2026-09-24
+EvoAgent: Automatic Multi-Agent Generation via Evolutionary Algorithms,https://arxiv.org/abs/2406.14228,2024-06,Fudan/MSRA,workflow,L0,yes,yes,EA extends specialist agents to multi-agent; gains across NLP/ScienceWorld/TravelPlanner (authors),2026-09-24
+Agent Workflow Memory,https://arxiv.org/abs/2409.07429,2024-09,CMU,web,L1,yes,yes,Induces reusable workflows; Mind2Web +24.6% relative SR; WebArena +51.1% relative (authors),2026-09-24
+OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis,https://arxiv.org/abs/2412.19723,2024-12,Shanghai AI Lab / HKU,web,L0–L1,yes (SFT later),yes,Reverse task synthesis + TRM; AndroidWorld Qwen2-VL-7B 9.82%→17.41% vs task-driven (authors),2026-09-24
+AgentTrek: Agent Trajectory Synthesis via Guiding Replay with Web Tutorials,https://arxiv.org/abs/2412.09605,2024-12,HKU / Salesforce,web,L0–L1,yes (SFT later),yes,Tutorial-guided replay; ~$0.55/trajectory; Qwen2.5-32B WebArena 22.40% with AgentTrek (authors),2026-09-24
+Eureka: Human-Level Reward Design via Coding Large Language Models,https://arxiv.org/abs/2310.12931,2023-10,NVIDIA / UPenn / UT Austin,embodied,L0 (reward code search),yes,yes,Evolutionary reward code; beats human rewards on 83% of 29 tasks; avg normalized +52%; pen spinning (authors),2026-09-24
+ExpeL: LLM Agents Are Experiential Learners,https://arxiv.org/abs/2308.10144,2023-08,Tsinghua,embodied,L1,yes,yes,Extract NL insights from success/fail; HotpotQA/ALFWorld/WebShop gains over ReAct; transfer HotpotQA→FEVER (authors),2026-09-24
+RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation,https://arxiv.org/abs/2311.01455,2023-11,CMU / MIT / UMass,embodied,L0–L1,yes,yes,Propose–generate–learn cycle; endless skill demos in generative sim (authors),2026-09-24
+Towards an AI co-scientist,https://arxiv.org/abs/2502.18864,2025-02,Google Research / DeepMind / Cloud AI,science,L0–L1,yes (Gemini 2.0),yes (multi-agent tournament),Tournament hypothesis evolution; AML/liver fibrosis/AMR wet-lab validations; Elo rises with test-time compute (authors),2026-09-24
+MLGym: A New Framework and Benchmark for Advancing AI Research Agents,https://arxiv.org/abs/2502.14499,2025-02,Meta / UCSB / Oxford,science,eval+framework,n/a,n/a,"13 open-ended AI research tasks; frontier LLMs mainly improve baselines via hyperparams, not novel algorithms (authors)",2026-09-24
+AlphaProof / AlphaGeometry 2 (IMO 2024),https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/,2024-07,Google DeepMind,math,L3-ish (RL on Lean),partial (trained loop),yes,IMO 2024 silver-medal equivalent: 28/42; AlphaProof Lean RL + AlphaGeometry 2 (official blog),2026-09-24
+DeepSeek-Prover-V1.5,https://arxiv.org/abs/2408.08152,2024-08,DeepSeek,math,L3,no,yes,RLPAF + RMaxTS; miniF2F-test 63.5%; ProofNet 25.3% (authors),2026-09-24
+DeepSeek-Prover-V2,https://arxiv.org/abs/2504.21801,2025-04,DeepSeek,math,L3,no,yes,Subgoal decomposition RL; miniF2F-test 88.9% Pass@8192 CoT 671B (authors),2026-09-24
+Measuring AI Ability to Complete Long Software Tasks,https://arxiv.org/abs/2503.14499,2025-03,METR,eval,eval,n/a,n/a,50%-task-completion time horizon; ~doubling every ~7 months since 2019; o3 ~110 min; extrapolates month-long software autonomy ~5y if trend holds (authors),2026-09-24
+WebEvolver: Enhancing Web Agent Self-Improvement with Co-evolving World Model,https://arxiv.org/abs/2504.21024,2025-04,Tencent AI Lab,web,L1–L3,no (iter SFT),yes,Co-evolving world model; ~10% gain vs self-evolving baseline on Mind2Web-Live/WebVoyager/GAIA-web (authors),2026-09-24
+UI-TARS-2 Technical Report,https://arxiv.org/abs/2509.02544,2025-09,ByteDance Seed,web,L3 + flywheel,no,partial,Data flywheel + multi-turn RL; OSWorld 47.5; AndroidWorld 73.3; Online-Mind2Web 88.2 (authors),2026-09-24
+DigiRL,https://arxiv.org/abs/2406.11896,2024-06,UC Berkeley / Google DeepMind,web,L3,no,yes,Offline→online AWR RL; AitW Web Shopping test success 17.7%→67.2% with 1.3B VLM (authors abstract),2026-09-24
+DrEureka,https://arxiv.org/abs/2406.01967,2024-06,UPenn / NVIDIA,embodied,L0,yes,yes,LLM-designed reward + DR; matches/exceeds some human sim2real configs; globe walking (authors),2026-09-24
+AlphaGeometry,https://www.nature.com/articles/s41586-023-06747-5,2024-01,Google DeepMind,math,L0–L3 hybrid,partial,yes,25/30 Olympiad geometry; prior SOTA 10; gold avg 25.9 (Nature/blog),2026-09-24
+HGM / CMP metaproductivity,https://arxiv.org/abs/2510.21614,2025-10,multi,eval,metric,n/a,n/a,CMP selects by offspring improvement potential (authors),2026-09-24
+MLGym-Bench,https://arxiv.org/abs/2502.14499,2025-02,Meta et al.,eval,eval,n/a,n/a,13 AI research tasks; models mostly hyperparam-tune baselines (authors),2026-09-24
+SWE-bench (context benchmark),https://arxiv.org/abs/2310.06770,2023-10,Princeton,eval,task eval,n/a,n/a,Coding agent task benchmark; not an RSI meta-benchmark (authors),2026-09-24
+MLE-bench (Kaggle ML eng. agents),https://arxiv.org/abs/2410.07095,2024-10,OpenAI,science,eval,n/a,n/a,75 Kaggle comps; o1-preview+AIDE ≥bronze ~16.9% in reported setup (authors; cross-listed from eval),2026-09-24
+PaperBench (ICML paper replication),https://arxiv.org/abs/2504.01848,2025-04,OpenAI,science,eval,n/a,n/a,Claude 3.5 Sonnet 21.0% vs PhD subset 41.4% (authors; cross-listed),2026-09-24
+RE-Bench (ML research engineering),https://arxiv.org/abs/2411.15114,2024-11,METR,science,eval,n/a,n/a,7 ML R&D envs; short-horizon agents can beat humans; long-horizon humans better (authors; cross-listed),2026-09-24
+Absolute Zero Reasoner (weight view),https://arxiv.org/abs/2505.03335,2025-05,multi,weight,L3,no,yes,Zero external data self-play; code executor verify; uh-oh CoT safety note (authors; cross-listed from math),2026-09-24
+AlphaEvolve (math/algorithms view),https://arxiv.org/abs/2506.13131,2025-06,Google DeepMind,math,L0,yes,yes,Program evolution; matrix mul / Gemini training / Borg gains (official; cross-listed from science),2026-09-24
