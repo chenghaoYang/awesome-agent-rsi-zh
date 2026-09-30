@@ -97,27 +97,6 @@
 5. [`docs/09-safety.md`](docs/09-safety.md) — 治理与奖励黑客  
 6. 其余场景按兴趣；[`docs/timeline.md`](docs/timeline.md) 看编年  
 
-## 目录结构
-
-```
-awesome-agent-rsi-zh/
-├── README.md
-├── LICENSE                 # CC BY 4.0
-├── papers.csv              # 机器可读主键表
-└── docs/
-    ├── 00-definitions.md
-    ├── 01-coding.md
-    ├── 02-ai-scientist.md
-    ├── 03-math.md
-    ├── 04-embodied.md
-    ├── 05-workflow.md
-    ├── 06-weight.md
-    ├── 07-web-gui.md
-    ├── 08-evaluation.md
-    ├── 09-safety.md
-    └── timeline.md
-```
-
 ## 引用与日期说明
 
 - 正文中文；**论文标题保持英文**。  
