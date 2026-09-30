@@ -64,7 +64,7 @@
 
 ## 6. 与先验报告的关系
 
-本仓库复用并扩展 `/workspace/agent-self-evolution-rsi.md`（2026-09-24）已核验条目：STOP、Gödel Agent、ADAS、DGM、SICA、HGM、AlphaEvolve、Voyager、AI Scientist、Self-Rewarding LMs，以及 OpenAI PF v2、Anthropic RSP、DeepMind FSF。新增条目均经 WebSearch/WebFetch 打开 arXiv abs/HTML、官方博客或作者 README。
+本仓库复用并扩展 2026-09-24 的早期调研稿（未随仓库公开），涉及 STOP、Gödel Agent、ADAS、DGM、SICA、HGM、AlphaEvolve、Voyager、AI Scientist、Self-Rewarding LMs，以及 OpenAI PF v2、Anthropic RSP、DeepMind FSF。公开可访问的条目与来源见各场景文档和 [papers.csv](../papers.csv)；“沿用先验”不代表本仓库重新核验过。新增条目按本次调研记录打开 arXiv abs/HTML、官方博客或作者 README。
 
 ## 7. 引用约定
 
